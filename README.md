@@ -18,6 +18,8 @@ Maybe set up [pigpio] beforehand.
 Install as you would any other npm package(not set up yet)
 ## Config
 In the config change the pins to your corresponding ones.
+There is a gamma value inside the index.js that corrects for the difference between homekit colour display and the actual colour.
+You can set individual values for rgb-gamma with a manual edit but at least for my strips I found 2.8 to be a good fit.
 # Logging
 There is some basic printing to the homebridge log from any function.
 This just prints the most important values changed in the function.
