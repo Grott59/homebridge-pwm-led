@@ -1,0 +1,23 @@
+{
+    "name":"homebridge-rgb-gpio",
+    "version":"2.0.0",
+    "description":"Homebridge plugin to control RGB-LED-strips via GPIO-pins",
+    "keywords":[
+        "homebridge-plugin",
+        "homebridge",
+        "led",
+        "rgb",
+        "gpio"
+    ],
+    "engines":{
+        "node":">=0.8.0",
+        "homebridge":">=0.2.0"
+    },
+    "author":{
+        "name":"Grott"
+    },
+    "dependencies":{
+        "pigpio":">=0.5.1",
+        "colorsys":">=1.0.10"
+    }
+}
