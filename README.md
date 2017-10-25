@@ -8,6 +8,8 @@ It uses:
 * [pigpio](https://www.npmjs.com/package/pigpio) ([GitHub-link](https://github.com/fivdi/pigpio)) js interface for PWM signaling
 * [colorsys](https://www.npmjs.com/package/colorsys) to convert between hsv and rgb colourspace
 * [David Ordnung](http://dordnung.de/raspberrypi-ledstrip/) has covered all the hardware side (there's an english translation on his site)
+
+I was heavily inspired by [homebridge-fake-rgb](https://www.npmjs.com/package/homebridge-fake-rgb) for the code structure.
 # Installation
 ## Prerequisites
 Please refer to the npm or GitHub pages for things to do in advance (e.g. install pigpio daemon).
